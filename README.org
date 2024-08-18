@@ -1,0 +1,11 @@
+#+title: OriComp Planning
+
+This repo contains all the planning for *OriComp*. This includes all past and present
+issues, features, bugs, etc. (including abandoned plans).
+
+All tracking is done through [[orgmode.org][Emacs Org Mode]].
+
+This solution was chosen over others (like Jira or GitHub Projects) because Org Mode
+is a tool that I am already familiar with. Also, since this is a one person project,
+tracking issues, bugs, features, etc. across multiple users is not needed, and so
+the other solutions are not necessary.

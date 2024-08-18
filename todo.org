@@ -1,0 +1,98 @@
+* [0/5] Initial Documentation
+:PROPERTIES:
+:ID:       20558eed-215e-47b0-bfdc-7e239cb250c7
+:END:
+
+** TODO Finalize Planning Procedure
+:PROPERTIES:
+:ID:       d5f1790e-c31a-4c61-a1b8-613807c83e5d
+:END:
+Finalize the procedure that will be used for planning from now on.
+
+** TODO Release Procedure
+:PROPERTIES:
+:ID:       30eb8c79-013f-42db-a7a3-d032269cba42
+:END:
+
+** TODO Planning Procedure
+:PROPERTIES:
+:ID:       12ebe95b-cffa-4a29-8647-8a67b00ded71
+:END:
+How to use this stuff to do planning for future projects, etc. How does the workflow
+work?
+
+** TODO OriComp Repo
+:PROPERTIES:
+:ID:       a23eea7e-bbd6-4885-b583-63ba520a7fbf
+:END:
+Add README to the main *OriComp* repo. This should go over each submodule.
+
+** TODO Documentation Generation
+:PROPERTIES:
+:ID:       a5d54707-25a8-4177-afef-abae3214f64e
+:END:
+A script (start in Python) that can be used to auto-generate documentation.
+
+For example, can embed data that comes from a yaml file
+
+#+begin_example
+Writing something and want to embed a bit of data from a yaml file (maybe it is the release
+version) #+begin_comment yaml_file_name.outer_value_in_dict.maybe_a_list_now[0].version
+#+end_comment and then continue writing documentation.
+#+end_example
+
+This would get exported as
+
+#+begin_example
+Writing something and want to embed a bit of data from a yaml file (maybe it is the release
+version) v0.0.1 #+begin_comment yaml_file_name.outer_value_in_dict.maybe_a_list_now[0].version
+#+end_comment and then continue writing documentation.
+#+end_example
+
+Or something similar to this (probably needs some rework).
+
+Also capable of exporting html/pdf with all links to other docs handled correctly (some way of specifying link is for documentation).
+
+
+* [0/2] Programming Language
+:PROPERTIES:
+:ID:       905dbe5a-d090-49a5-820b-3451034d52f7
+:END:
+
+A completely custom programming language for use in *OriComp*. Should be similar/inspired
+by C, C++, Rust, Zig, C3, etc.
+
+A low level system programming language.
+
+Arbitrary compile time code execution.
+
+Python like markers (only for functions?).
+
+Named TIO (Two in One)
+
+** TODO Learn Rust
+:PROPERTIES:
+:ID:       81978684-977c-4fb2-a036-4bcc5a31e5bf
+:END:
+
+** TODO Learn Zig
+:PROPERTIES:
+:ID:       4c37ca4b-d1be-4d87-8750-c765a30da6c0
+:END:
+
+* [0/1] Vaudeo
+:PROPERTIES:
+:ID:       8b73ee38-49f0-46dd-9bfe-007514b9aca4
+:END:
+
+Complete "firmware" for rev A of Vaudeo board.
+
+** TODO Working Simulation/Interface For Testing
+:PROPERTIES:
+:ID:       60f4cf6d-faf0-456b-83c2-79f46b71a1c4
+:END:
+
+Create a simulation or interface between the testing of the verilog firmware and
+a screen that mimics a screen.
+
+https://www.cocotb.org/

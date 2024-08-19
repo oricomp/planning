@@ -80,6 +80,7 @@ Types:
  - ~xY_Z~ -- fixed point where ~Y~ is number of bits before decimal and ~Z~ is number of bits
    after decimal
  - No characters (they are just ~u8~)
+ - Fat pointers with size and location (cannot cast from smaller size to bigger size)
 
 ** TODO Learn Rust
 :PROPERTIES:

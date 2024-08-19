@@ -53,8 +53,7 @@ Or something similar to this (probably needs some rework).
 
 Also capable of exporting html/pdf with all links to other docs handled correctly (some way of specifying link is for documentation).
 
-
-* [0/2] Programming Language
+* [0/5] Programming Language
 :PROPERTIES:
 :ID:       905dbe5a-d090-49a5-820b-3451034d52f7
 :END:
@@ -65,6 +64,9 @@ by C, C++, Rust, Zig, C3, etc.
 A low level system programming language.
 
 Arbitrary compile time code execution.
+
+Only tool necessary for building project is compiler (can use built in library to build
+entire project at compile time).
 
 Python like markers (only for functions?).
 
@@ -78,6 +80,23 @@ Named TIO (Two in One)
 ** TODO Learn Zig
 :PROPERTIES:
 :ID:       4c37ca4b-d1be-4d87-8750-c765a30da6c0
+:END:
+
+** TODO Treesitter for Language
+:PROPERTIES:
+:ID:       4826acba-399b-489f-987b-f3ac8fe8e67f
+:END:
+Or some other type of syntax highlighter (working with Emacs)
+
+** TODO Debugger for Language
+:PROPERTIES:
+:ID:       04fb53de-b10f-4c73-a4e2-27a67b77c4fb
+:END:
+Including DAP
+
+** TODO LSP for Language
+:PROPERTIES:
+:ID:       a0d70a77-b6b2-4462-9859-c66f25f42822
 :END:
 
 * [0/1] Vaudeo

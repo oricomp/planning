@@ -53,7 +53,7 @@ Or something similar to this (probably needs some rework).
 
 Also capable of exporting html/pdf with all links to other docs handled correctly (some way of specifying link is for documentation).
 
-* [0/5] Programming Language
+* [0/6] Programming Language
 :PROPERTIES:
 :ID:       905dbe5a-d090-49a5-820b-3451034d52f7
 :END:
@@ -70,7 +70,16 @@ entire project at compile time).
 
 Python like markers (only for functions?).
 
-Named TIO (Two in One)
+Named TIO (Two in One) (compile time and run time) (compile time dynamically typed?)
+Compile time expansion of lists/vectors as arguments to function?
+
+Types:
+ - ~i8~, ~i16~, ..., ~i128~ -- signed ints
+ - ~u8~, ~u16~, ..., ~u128~ -- unsigned ints
+ - ~f16~, ~f32~, ... -- floating point numbers
+ - ~xY_Z~ -- fixed point where ~Y~ is number of bits before decimal and ~Z~ is number of bits
+   after decimal
+ - No characters (they are just ~u8~)
 
 ** TODO Learn Rust
 :PROPERTIES:
@@ -98,6 +107,12 @@ Including DAP
 :PROPERTIES:
 :ID:       a0d70a77-b6b2-4462-9859-c66f25f42822
 :END:
+
+** TODO Documentation Generator For Language
+:PROPERTIES:
+:ID:       3a3b3834-2734-4cfa-84d8-0aa7a8a3ba2f
+:END:
+Similar to [[https://www.doxygen.nl/][Doxygen]]
 
 * [0/1] Vaudeo
 :PROPERTIES:

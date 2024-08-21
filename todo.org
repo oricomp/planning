@@ -1,36 +1,147 @@
-* [0/5] Initial Documentation
+* PROG [0/5] Initial Documentation
 :PROPERTIES:
-:ID:       20558eed-215e-47b0-bfdc-7e239cb250c7
+:ID:       aded0478-46fd-4189-ab77-c1d541b22839
+:END:
+:LOGBOOK:
+- State "PROG"       from "TODO"       [2024-08-20 Tue 21:24]
+- State "TODO"       from              [2024-08-20 Tue 18:20]
 :END:
 
-** TODO Finalize Planning Procedure
+** PROG [1/2] Finalize Planning Procedure
 :PROPERTIES:
-:ID:       d5f1790e-c31a-4c61-a1b8-613807c83e5d
+:ID:       d5bc8d58-8f64-4d9c-9ecf-2888e30defd0
 :END:
+:LOGBOOK:
+- State "PROG"       from "TODO"       [2024-08-20 Tue 21:24]
+- State "TODO"       from              [2024-08-20 Tue 18:20]
+:END:
+
 Finalize the procedure that will be used for planning from now on.
+
+*** DONE Research Workflows
+:PROPERTIES:
+:ID:       0f32ca27-c149-4225-9cfe-30646da94843
+:END:
+:LOGBOOK:
+- State "DONE"       from "PROG"       [2024-08-20 Tue 21:03]
+- State "PROG"       from "TODO"       [2024-08-20 Tue 18:13]
+- State "TODO"       from              [2024-08-20 Tue 18:10]
+:END:
+
+Look into how others do their workflows to get inspiration for own workflow.
+
+*** PROG Write Elisp for Workflow
+:PROPERTIES:
+:ID:       f7aafeab-44e9-45c3-aac6-d3256d33a96f
+:END:
+:LOGBOOK:
+- State "PROG"       from "NEXT"       [2024-08-20 Tue 21:03]
+- State "NEXT"       from              [2024-08-20 Tue 18:13]
+:END:
+
+Customize Emacs for use with chosen workflow
+
+**** PROG Automatically Add Statistics Cookies
+:PROPERTIES:
+:ID:       e23145f3-e39f-44eb-b4b2-111a4f8bafc8
+:END:
+:LOGBOOK:
+- State "PROG"       from "TODO"       [2024-08-20 Tue 22:03]
+- State "TODO"       from              [2024-08-20 Tue 21:24]
+:END:
+
+Add ~[/]~ to all headings with children on save.
+
+**** TODO Org Agenda - Show TODOs in Tree View
+:PROPERTIES:
+:ID:       a276cf6e-902a-4978-9da1-baa1aa4c59fc
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-08-20 Tue 21:25]
+:END:
+
+Sub-Tasks/Headings are indented
+
+**** TODO Automatically Refile Done Tasks
+:PROPERTIES:
+:ID:       2805bc17-ac58-4e8a-a406-2bbb9a3a6d96
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-08-20 Tue 21:26]
+:END:
+
+This should only happen at the highest level.
+
+**** TODO Automatically Mark Task as Done Once Children are Done
+:PROPERTIES:
+:ID:       d6c85c91-32ca-4c36-80e7-671bfbc19ccf
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-08-20 Tue 21:28]
+:END:
+
+Maybe also mark all parents (recursive) as PROG when task marked as PROG?
+
+**** TODO Update Todo Faces
+:PROPERTIES:
+:ID:       98bb1712-8fba-404f-bd3d-1d0566ae1d04
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-08-20 Tue 21:29]
+:END:
+
+Update the ~org-todo-keyword-faces~ variable to reflect new keywords.
+
+**** TODO Look Into Special Properties
+:PROPERTIES:
+:ID:       2a5c83dc-1331-4266-9c6f-2161a8c08f6f
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-08-20 Tue 21:31]
+:END:
+
+[[https://orgmode.org/manual/Special-Properties.html][Special Properties]]
 
 ** TODO Release Procedure
 :PROPERTIES:
-:ID:       30eb8c79-013f-42db-a7a3-d032269cba42
+:ID:       9601b3bc-5c4e-4235-8a63-6ec89b12e7c3
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-08-20 Tue 18:16]
 :END:
 
-** TODO Planning Procedure
+What needs to be done for each release.
+
+** NEXT Planning Procedure
 :PROPERTIES:
-:ID:       12ebe95b-cffa-4a29-8647-8a67b00ded71
+:ID:       cdfbdfd6-5701-4ab8-aa77-eab45152d0fe
 :END:
+:LOGBOOK:
+- State "NEXT"       from "TODO"       [2024-08-20 Tue 21:03]
+- State "TODO"       from              [2024-08-20 Tue 18:18]
+:END:
+
 How to use this stuff to do planning for future projects, etc. How does the workflow
 work?
 
 ** TODO OriComp Repo
 :PROPERTIES:
-:ID:       a23eea7e-bbd6-4885-b583-63ba520a7fbf
+:ID:       d2c3d49b-a647-49fc-8ccc-9588e7b70d18
 :END:
+:LOGBOOK:
+- State "TODO"       from              [2024-08-20 Tue 18:18]
+:END:
+
 Add README to the main *OriComp* repo. This should go over each submodule.
 
 ** TODO Documentation Generation
 :PROPERTIES:
-:ID:       a5d54707-25a8-4177-afef-abae3214f64e
+:ID:       927762c7-3993-4f13-ae09-d4562043dfd8
 :END:
+:LOGBOOK:
+- State "TODO"       from              [2024-08-20 Tue 18:18]
+:END:
+
 A script (start in Python) that can be used to auto-generate documentation.
 
 For example, can embed data that comes from a yaml file
@@ -53,9 +164,12 @@ Or something similar to this (probably needs some rework).
 
 Also capable of exporting html/pdf with all links to other docs handled correctly (some way of specifying link is for documentation).
 
-* [0/6] Programming Language
+* TODO [0/6] Programming Language
 :PROPERTIES:
-:ID:       905dbe5a-d090-49a5-820b-3451034d52f7
+:ID:       446aeb7e-c110-47b4-afb7-efe1c013b8a5
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-08-20 Tue 18:20]
 :END:
 
 A completely custom programming language for use in *OriComp*. Should be similar/inspired
@@ -84,50 +198,146 @@ Types:
 
 ** TODO Learn Rust
 :PROPERTIES:
-:ID:       81978684-977c-4fb2-a036-4bcc5a31e5bf
+:ID:       7b2200fe-0114-49ca-b748-f1e64a823b56
 :END:
+:LOGBOOK:
+- State "TODO"       from              [2024-08-20 Tue 18:21]
+:END:
+
+[[https://doc.rust-lang.org/book/][Book]]
+[[https://github.com/rust-lang/rustlings/][Rustlings Course]]
+[[https://doc.rust-lang.org/rust-by-example/][Examples]]
 
 ** TODO Learn Zig
 :PROPERTIES:
-:ID:       4c37ca4b-d1be-4d87-8750-c765a30da6c0
+:ID:       408f98fd-4e64-4fc5-8d42-8990738e9a5b
 :END:
+:LOGBOOK:
+- State "TODO"       from              [2024-08-20 Tue 18:21]
+:END:
+
+[[https://ziglang.org/learn/][Documentation]]
 
 ** TODO Treesitter for Language
 :PROPERTIES:
-:ID:       4826acba-399b-489f-987b-f3ac8fe8e67f
+:ID:       77b683f4-450c-4b17-bf63-c571c088e5ed
 :END:
+:LOGBOOK:
+- State "TODO"       from              [2024-08-20 Tue 18:20]
+:END:
+
 Or some other type of syntax highlighter (working with Emacs)
 
 ** TODO Debugger for Language
 :PROPERTIES:
-:ID:       04fb53de-b10f-4c73-a4e2-27a67b77c4fb
+:ID:       33ac56b3-7ca3-48eb-a74f-a207b1b06085
 :END:
+:LOGBOOK:
+- State "TODO"       from              [2024-08-20 Tue 18:20]
+:END:
+
 Including DAP
 
 ** TODO LSP for Language
 :PROPERTIES:
-:ID:       a0d70a77-b6b2-4462-9859-c66f25f42822
+:ID:       5d188211-c74b-40af-b3b6-1e6eb04deeaa
 :END:
+:LOGBOOK:
+- State "TODO"       from              [2024-08-20 Tue 18:20]
+:END:
+
+Works with Emacs.
+[[https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/][Specs]]
 
 ** TODO Documentation Generator For Language
 :PROPERTIES:
-:ID:       3a3b3834-2734-4cfa-84d8-0aa7a8a3ba2f
+:ID:       59483458-64e6-4538-920c-87b243ead4fb
 :END:
+:LOGBOOK:
+- State "TODO"       from              [2024-08-20 Tue 18:20]
+:END:
+
 Similar to [[https://www.doxygen.nl/][Doxygen]]
 
-* [0/1] Vaudeo
+* TODO [0/5] Vaudeo
 :PROPERTIES:
-:ID:       8b73ee38-49f0-46dd-9bfe-007514b9aca4
+:ID:       77cbab3b-6e85-46d7-9427-f89722dc2db1
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-08-20 Tue 18:20]
 :END:
 
 Complete "firmware" for rev A of Vaudeo board.
 
+** TODO Basic VGA signals generated
+:PROPERTIES:
+:ID:       4d158a2e-719e-4f29-a9f0-795d9de4fe7f
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-08-20 Tue 18:20]
+:END:
+
+Vertical sync and Horizontal sync
+
 ** TODO Working Simulation/Interface For Testing
 :PROPERTIES:
-:ID:       60f4cf6d-faf0-456b-83c2-79f46b71a1c4
+:ID:       36248ea9-aff9-41ab-8f0b-40ea38b093cc
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-08-20 Tue 18:20]
 :END:
 
 Create a simulation or interface between the testing of the verilog firmware and
 a screen that mimics a screen.
 
 https://www.cocotb.org/
+
+** TODO Basic Test patterns
+:PROPERTIES:
+:ID:       845a9fa1-a32e-4056-8fb6-5dd02d97b1a0
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-08-20 Tue 18:20]
+:END:
+
+Different colored boxes, lines, etc.
+
+** TODO Character generation
+:PROPERTIES:
+:ID:       3a038e6f-5727-41ba-ab67-f596c6df7b49
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-08-20 Tue 18:20]
+:END:
+
+256? 512? character ROM
+
+** TODO Access External DRAM
+:PROPERTIES:
+:ID:       7129073e-0fe1-4e9a-bbd2-5d3700da00d8
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-08-20 Tue 18:20]
+:END:
+
+Also build into simulation
+
+*** TODO Access External DRAM on Hardware
+:PROPERTIES:
+:ID:       fa365ecc-6b7d-4668-a040-554e89ce962f
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-08-20 Tue 18:20]
+:END:
+
+[[https://www.digikey.com/en/products/detail/issi-integrated-silicon-solution-inc/IS42S16400J-7TLI/2708624][DigiKey Purchase]]
+
+*** TODO Simulation Mimics DRAM Usage
+:PROPERTIES:
+:ID:       ef9b4a04-ced4-4592-8a8d-fb0dd62fb015
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-08-20 Tue 18:20]
+:END:
+
+Should also throw errors when there is not proper timing, etc.

@@ -185,7 +185,13 @@ entire project at compile time).
 Python like markers (only for functions?).
 
 Named TIO (Two in One) (compile time and run time) (compile time dynamically typed?)
+
 Compile time expansion of lists/vectors as arguments to function?
+
+Ability to add "optimizations"/"inferences" similar to how
+~String str = "Hello World";~ would have the string literal (a ~u8~ array) upgraded
+to type ~String~. This should be added to the language itself (compile time) so that
+users can add such things however they want.
 
 Types:
  - ~i8~, ~i16~, ..., ~i128~ -- signed ints

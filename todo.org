@@ -30,7 +30,7 @@ Finalize the procedure that will be used for planning from now on.
 
 Look into how others do their workflows to get inspiration for own workflow.
 
-*** PROG Write Elisp for Workflow
+*** PROG [3/6] Write Elisp for Workflow
 :PROPERTIES:
 :ID:       f7aafeab-44e9-45c3-aac6-d3256d33a96f
 :END:
@@ -41,42 +41,49 @@ Look into how others do their workflows to get inspiration for own workflow.
 
 Customize Emacs for use with chosen workflow
 
-**** PROG Automatically Add Statistics Cookies
+**** DONE Automatically Add Statistics Cookies
 :PROPERTIES:
 :ID:       e23145f3-e39f-44eb-b4b2-111a4f8bafc8
 :END:
 :LOGBOOK:
+- State "DONE"       from "PROG"       [2024-08-21 Wed 21:25] \\
+  Done in personal doomemacs config
+- State "PROG"       from "TODO"       [2024-08-21 Wed 19:35]
+- State "TODO"       from "PROG"       [2024-08-21 Wed 16:52]
 - State "PROG"       from "TODO"       [2024-08-20 Tue 22:03]
 - State "TODO"       from              [2024-08-20 Tue 21:24]
 :END:
 
 Add ~[/]~ to all headings with children on save.
 
-**** TODO Org Agenda - Show TODOs in Tree View
+**** NEXT Org Agenda - Show TODOs in Tree View
 :PROPERTIES:
 :ID:       a276cf6e-902a-4978-9da1-baa1aa4c59fc
 :END:
 :LOGBOOK:
+- State "NEXT"       from "TODO"       [2024-08-21 Wed 21:22]
 - State "TODO"       from              [2024-08-20 Tue 21:25]
 :END:
 
 Sub-Tasks/Headings are indented
 
-**** TODO Automatically Refile Done Tasks
+**** NEXT Automatically Refile Done Tasks
 :PROPERTIES:
 :ID:       2805bc17-ac58-4e8a-a406-2bbb9a3a6d96
 :END:
 :LOGBOOK:
+- State "NEXT"       from "TODO"       [2024-08-21 Wed 21:22]
 - State "TODO"       from              [2024-08-20 Tue 21:26]
 :END:
 
 This should only happen at the highest level.
 
-**** TODO Automatically Mark Task as Done Once Children are Done
+**** NEXT Automatically Mark Task as Done Once Children are Done
 :PROPERTIES:
 :ID:       d6c85c91-32ca-4c36-80e7-671bfbc19ccf
 :END:
 :LOGBOOK:
+- State "NEXT"       from "TODO"       [2024-08-21 Wed 21:22]
 - State "TODO"       from              [2024-08-20 Tue 21:28]
 :END:
 
@@ -323,7 +330,7 @@ Different colored boxes, lines, etc.
 
 256? 512? character ROM
 
-** TODO Access External DRAM
+** TODO [0/2] Access External DRAM
 :PROPERTIES:
 :ID:       7129073e-0fe1-4e9a-bbd2-5d3700da00d8
 :END:

@@ -82,21 +82,26 @@ This should only happen at the highest level.
 
 Maybe also mark all parents (recursive) as PROG when task marked as PROG?
 
-**** TODO Update Todo Faces
+**** DONE Update Todo Faces
 :PROPERTIES:
 :ID:       98bb1712-8fba-404f-bd3d-1d0566ae1d04
 :END:
 :LOGBOOK:
+- State "DONE"       from "PROG"       [2024-08-21 Wed 19:35] \\
+  Work done in private doomemacs configuration
+- State "PROG"       from "TODO"       [2024-08-21 Wed 18:37]
 - State "TODO"       from              [2024-08-20 Tue 21:29]
 :END:
 
 Update the ~org-todo-keyword-faces~ variable to reflect new keywords.
 
-**** TODO Look Into Special Properties
+**** DONE Look Into Special Properties
 :PROPERTIES:
 :ID:       2a5c83dc-1331-4266-9c6f-2161a8c08f6f
 :END:
 :LOGBOOK:
+- State "DONE"       from "PROG"       [2024-08-21 Wed 17:01]
+- State "PROG"       from "TODO"       [2024-08-21 Wed 16:55]
 - State "TODO"       from              [2024-08-20 Tue 21:31]
 :END:
 

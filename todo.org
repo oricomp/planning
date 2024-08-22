@@ -30,7 +30,7 @@ Finalize the procedure that will be used for planning from now on.
 
 Look into how others do their workflows to get inspiration for own workflow.
 
-*** PROG [3/6] Write Elisp for Workflow
+*** PROG [3/5] Write Elisp for Workflow
 :PROPERTIES:
 :ID:       f7aafeab-44e9-45c3-aac6-d3256d33a96f
 :END:
@@ -56,27 +56,17 @@ Customize Emacs for use with chosen workflow
 
 Add ~[/]~ to all headings with children on save.
 
-**** NEXT Org Agenda - Show TODOs in Tree View
+**** PROG Org Agenda - Show TODOs in Tree View
 :PROPERTIES:
 :ID:       a276cf6e-902a-4978-9da1-baa1aa4c59fc
 :END:
 :LOGBOOK:
+- State "PROG"       from "NEXT"       [2024-08-21 Wed 21:29]
 - State "NEXT"       from "TODO"       [2024-08-21 Wed 21:22]
 - State "TODO"       from              [2024-08-20 Tue 21:25]
 :END:
 
 Sub-Tasks/Headings are indented
-
-**** NEXT Automatically Refile Done Tasks
-:PROPERTIES:
-:ID:       2805bc17-ac58-4e8a-a406-2bbb9a3a6d96
-:END:
-:LOGBOOK:
-- State "NEXT"       from "TODO"       [2024-08-21 Wed 21:22]
-- State "TODO"       from              [2024-08-20 Tue 21:26]
-:END:
-
-This should only happen at the highest level.
 
 **** NEXT Automatically Mark Task as Done Once Children are Done
 :PROPERTIES:
@@ -175,6 +165,40 @@ version) v0.0.1 #+begin_comment yaml_file_name.outer_value_in_dict.maybe_a_list_
 Or something similar to this (probably needs some rework).
 
 Also capable of exporting html/pdf with all links to other docs handled correctly (some way of specifying link is for documentation).
+
+* TODO [0/2] Refile Done Tasks
+:PROPERTIES:
+:ID:       87b6cf5b-b6bc-4bf9-9925-76ada0285402
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-08-21 Wed 22:35]
+:END:
+
+Refile done tasks so that they are not all just in this one file.
+
+** TODO Come Up With System for Refiling
+:PROPERTIES:
+:ID:       71df1228-5893-4dda-a839-6650e8c07305
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-08-21 Wed 22:35]
+:END:
+
+Should be simple and straight-forward. Don't have to wait till toplevel task is done
+in order to refile it (but maintain parent-child relationship) (maybe automatically
+link parents and children)
+
+** TODO Automatically Refile Done Tasks
+:PROPERTIES:
+:ID:       2805bc17-ac58-4e8a-a406-2bbb9a3a6d96
+:END:
+:LOGBOOK:
+- State "TODO"       from "NEXT"       [2024-08-21 Wed 22:36]
+- State "NEXT"       from "TODO"       [2024-08-21 Wed 21:22]
+- State "TODO"       from              [2024-08-20 Tue 21:26]
+:END:
+
+This should only happen at the highest level.
 
 * TODO [0/6] Programming Language
 :PROPERTIES:

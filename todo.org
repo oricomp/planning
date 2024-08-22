@@ -200,7 +200,7 @@ link parents and children)
 
 This should only happen at the highest level.
 
-* TODO [0/6] Programming Language
+* TODO [0/7] Programming Language
 :PROPERTIES:
 :ID:       446aeb7e-c110-47b4-afb7-efe1c013b8a5
 :END:
@@ -228,6 +228,9 @@ Ability to add "optimizations"/"inferences" similar to how
 ~String str = "Hello World";~ would have the string literal (a ~u8~ array) upgraded
 to type ~String~. This should be added to the language itself (compile time) so that
 users can add such things however they want.
+
+Special variable ~_~ that can be redefined/implicitly declared and just symbolizes
+to compiler that value is ignored. (padding in structs (if necessary)).
 
 Types:
  - ~i8~, ~i16~, ..., ~i128~ -- signed ints
@@ -259,6 +262,18 @@ Types:
 :END:
 
 [[https://ziglang.org/learn/][Documentation]]
+
+** TODO Compiler for Language
+:PROPERTIES:
+:ID:       b25b729d-255f-438c-acad-a276905a5a94
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-08-22 Thu 15:07]
+:END:
+
+Language should be compiled. Probably easiest to write compiler in Python first,
+then transfer to new language. Support LLVM (or alternative?) backend, but also
+own custom backend (to be implemented in future).
 
 ** TODO Treesitter for Language
 :PROPERTIES:

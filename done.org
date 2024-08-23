@@ -1,1 +1,2 @@
 #+title: OriComp Planning Archive
+#+auto_tangle: nil

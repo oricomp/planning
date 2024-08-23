@@ -1,4 +1,5 @@
 #+title: OriComp Planning
+#+auto_tangle: nil
 
 * PROG [0/5] Initial Documentation
 :PROPERTIES:

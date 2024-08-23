@@ -1,3 +1,5 @@
+#+title: OriComp Planning
+
 * PROG [0/5] Initial Documentation
 :PROPERTIES:
 :ID:       aded0478-46fd-4189-ab77-c1d541b22839

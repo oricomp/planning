@@ -206,7 +206,7 @@ link parents and children)
 
 This should only happen at the highest level.
 
-* TODO [0/7] Programming Language
+* TODO [0/8] Programming Language
 :PROPERTIES:
 :ID:       446aeb7e-c110-47b4-afb7-efe1c013b8a5
 :END:
@@ -246,6 +246,16 @@ Types:
    after decimal
  - No characters (they are just ~u8~)
  - Fat pointers with size and location (cannot cast from smaller size to bigger size)
+
+** TODO Look Into Hare
+:PROPERTIES:
+:ID:       ca6aa35a-90d8-4c89-9069-f75ee4af42a8
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-08-22 Thu 18:33]
+:END:
+
+[[https://harelang.org/][Hare Programming Language]]
 
 ** TODO Learn Rust
 :PROPERTIES:

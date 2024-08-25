@@ -1,7 +1,7 @@
 #+title: OriComp Planning
 #+auto_tangle: nil
 
-* PROG [0/5] Initial Documentation
+* PROG [1/5] Initial Documentation
 :PROPERTIES:
 :ID:       aded0478-46fd-4189-ab77-c1d541b22839
 :END:
@@ -10,11 +10,12 @@
 - State "TODO"       from              [2024-08-20 Tue 18:20]
 :END:
 
-** PROG [1/2] Finalize Planning Procedure
+** DONE [2/2] Finalize Planning Procedure
 :PROPERTIES:
 :ID:       d5bc8d58-8f64-4d9c-9ecf-2888e30defd0
 :END:
 :LOGBOOK:
+- State "DONE"       from "PROG"       [2024-08-24 Sat 23:05]
 - State "PROG"       from "TODO"       [2024-08-20 Tue 21:24]
 - State "TODO"       from              [2024-08-20 Tue 18:20]
 :END:
@@ -33,11 +34,12 @@ Finalize the procedure that will be used for planning from now on.
 
 Look into how others do their workflows to get inspiration for own workflow.
 
-*** PROG [4/5] Write Elisp for Workflow
+*** DONE [5/5] Write Elisp for Workflow
 :PROPERTIES:
 :ID:       f7aafeab-44e9-45c3-aac6-d3256d33a96f
 :END:
 :LOGBOOK:
+- State "DONE"       from "PROG"       [2024-08-24 Sat 23:05]
 - State "PROG"       from "NEXT"       [2024-08-20 Tue 21:03]
 - State "NEXT"       from              [2024-08-20 Tue 18:13]
 :END:
@@ -73,11 +75,14 @@ Add ~[/]~ to all headings with children on save.
 
 Sub-Tasks/Headings are indented
 
-**** PROG Automatically Mark Task as Done Once Children are Done
+**** CANC Automatically Mark Task as Done Once Children are Done
 :PROPERTIES:
 :ID:       d6c85c91-32ca-4c36-80e7-671bfbc19ccf
 :END:
 :LOGBOOK:
+- State "CANC"       from "PROG"       [2024-08-24 Sat 23:04] \\
+  Automarking parent as done ended up interfering with logging messages.
+  It is not necessary, so is abandoned.
 - State "PROG"       from "NEXT"       [2024-08-22 Thu 21:49]
 - State "NEXT"       from "TODO"       [2024-08-21 Wed 21:22]
 - State "TODO"       from              [2024-08-20 Tue 21:28]
@@ -110,11 +115,12 @@ Update the ~org-todo-keyword-faces~ variable to reflect new keywords.
 
 [[https://orgmode.org/manual/Special-Properties.html][Special Properties]]
 
-** TODO Release Procedure
+** NEXT Release Procedure
 :PROPERTIES:
 :ID:       9601b3bc-5c4e-4235-8a63-6ec89b12e7c3
 :END:
 :LOGBOOK:
+- State "NEXT"       from "TODO"       [2024-08-25 Sun 17:23]
 - State "TODO"       from              [2024-08-20 Tue 18:16]
 :END:
 
@@ -132,11 +138,12 @@ What needs to be done for each release.
 How to use this stuff to do planning for future projects, etc. How does the workflow
 work?
 
-** TODO OriComp Repo
+** NEXT OriComp Repo
 :PROPERTIES:
 :ID:       d2c3d49b-a647-49fc-8ccc-9588e7b70d18
 :END:
 :LOGBOOK:
+- State "NEXT"       from "TODO"       [2024-08-25 Sun 17:23]
 - State "TODO"       from              [2024-08-20 Tue 18:18]
 :END:
 
@@ -171,43 +178,6 @@ version) v0.0.1 #+begin_comment yaml_file_name.outer_value_in_dict.maybe_a_list_
 Or something similar to this (probably needs some rework).
 
 Also capable of exporting html/pdf with all links to other docs handled correctly (some way of specifying link is for documentation).
-
-* NEXT [0/2] Refile Done Tasks
-:PROPERTIES:
-:ID:       87b6cf5b-b6bc-4bf9-9925-76ada0285402
-:END:
-:LOGBOOK:
-- State "NEXT"       from "TODO"       [2024-08-22 Thu 21:48]
-- State "TODO"       from              [2024-08-21 Wed 22:35]
-:END:
-
-Refile done tasks so that they are not all just in this one file.
-
-** NEXT Come Up With System for Refiling
-:PROPERTIES:
-:ID:       71df1228-5893-4dda-a839-6650e8c07305
-:END:
-:LOGBOOK:
-- State "NEXT"       from "TODO"       [2024-08-22 Thu 21:51]
-- State "TODO"       from              [2024-08-21 Wed 22:35]
-:END:
-
-Should be simple and straight-forward. Don't have to wait till toplevel task is done
-in order to refile it (but maintain parent-child relationship) (maybe automatically
-link parents and children)
-
-** NEXT Automatically Refile Done Tasks
-:PROPERTIES:
-:ID:       2805bc17-ac58-4e8a-a406-2bbb9a3a6d96
-:END:
-:LOGBOOK:
-- State "NEXT"       from "TODO"       [2024-08-22 Thu 21:51]
-- State "TODO"       from "NEXT"       [2024-08-21 Wed 22:36]
-- State "NEXT"       from "TODO"       [2024-08-21 Wed 21:22]
-- State "TODO"       from              [2024-08-20 Tue 21:26]
-:END:
-
-This should only happen at the highest level.
 
 * TODO [0/8] Programming Language
 :PROPERTIES:

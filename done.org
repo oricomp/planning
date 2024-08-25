@@ -1,2 +1,49 @@
 #+title: OriComp Planning Archive
 #+auto_tangle: nil
+
+* Archive
+** DONE [2/2] Refile Done Tasks
+:PROPERTIES:
+:ID:       87b6cf5b-b6bc-4bf9-9925-76ada0285402
+:END:
+:LOGBOOK:
+- State "DONE"       from "PROG"       [2024-08-25 Sun 17:22]
+- State "PROG"       from "NEXT"       [2024-08-25 Sun 17:21]
+- State "NEXT"       from "TODO"       [2024-08-22 Thu 21:48]
+- State "TODO"       from              [2024-08-21 Wed 22:35]
+:END:
+
+Refile done tasks so that they are not all just in this one file.
+
+*** DONE Come Up With System for Refiling
+:PROPERTIES:
+:ID:       71df1228-5893-4dda-a839-6650e8c07305
+:END:
+:LOGBOOK:
+- State "DONE"       from "PROG"       [2024-08-25 Sun 17:21] \\
+  Done tasks (at the top level) are refiled to done.org/Archive
+- State "PROG"       from "NEXT"       [2024-08-25 Sun 17:21]
+- State "NEXT"       from "TODO"       [2024-08-22 Thu 21:51]
+- State "TODO"       from              [2024-08-21 Wed 22:35]
+:END:
+
+Should be simple and straight-forward. Don't have to wait till toplevel task is done
+in order to refile it (but maintain parent-child relationship) (maybe automatically
+link parents and children)
+
+*** CANC Automatically Refile Done Tasks
+:PROPERTIES:
+:ID:       2805bc17-ac58-4e8a-a406-2bbb9a3a6d96
+:END:
+:LOGBOOK:
+- State "CANC"       from "NEXT"       [2024-08-25 Sun 17:21] \\
+  Automatic refiling is not necessary because only the top-level tasks
+  are refiled, and I do not mind refiling those tasks (they should not
+  occur often).
+- State "NEXT"       from "TODO"       [2024-08-22 Thu 21:51]
+- State "TODO"       from "NEXT"       [2024-08-21 Wed 22:36]
+- State "NEXT"       from "TODO"       [2024-08-21 Wed 21:22]
+- State "TODO"       from              [2024-08-20 Tue 21:26]
+:END:
+
+This should only happen at the highest level.

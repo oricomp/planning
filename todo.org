@@ -211,6 +211,17 @@ users can add such things however they want.
 Special variable ~_~ that can be redefined/implicitly declared and just symbolizes
 to compiler that value is ignored. (padding in structs (if necessary)).
 
+Function chaining (~obj.func1().func2().func3()~) is useful, but often confusing if
+the functions modify the object in place instead of producing a new object. Can
+potentially fix this confusion by allowing functions to tell compiler they modify
+the object in place? This prevents
+#+begin_src
+a = Obj()
+b = a.f().g().h()
+a == b // true
+#+end_src
+This is really only needed for member functions (not all functions).
+
 Types:
  - ~i8~, ~i16~, ..., ~i128~ -- signed ints
  - ~u8~, ~u16~, ..., ~u128~ -- unsigned ints

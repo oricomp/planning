@@ -1,7 +1,7 @@
 #+title: OriComp Planning
 #+auto_tangle: nil
 
-* PROG [2/5] Initial Documentation
+* PROG [3/5] Initial Documentation
 :PROPERTIES:
 :ID:       aded0478-46fd-4189-ab77-c1d541b22839
 :END:
@@ -115,11 +115,12 @@ Update the ~org-todo-keyword-faces~ variable to reflect new keywords.
 
 [[https://orgmode.org/manual/Special-Properties.html][Special Properties]]
 
-** NEXT Release Procedure
+** PROG Release Procedure
 :PROPERTIES:
 :ID:       9601b3bc-5c4e-4235-8a63-6ec89b12e7c3
 :END:
 :LOGBOOK:
+- State "PROG"       from "NEXT"       [2024-08-27 Tue 18:29]
 - State "NEXT"       from "TODO"       [2024-08-25 Sun 17:23]
 - State "TODO"       from              [2024-08-20 Tue 18:16]
 :END:
@@ -141,11 +142,12 @@ What needs to be done for each release.
 How to use this stuff to do planning for future projects, etc. How does the workflow
 work?
 
-** PROG OriComp Repo
+** DONE OriComp Repo
 :PROPERTIES:
 :ID:       d2c3d49b-a647-49fc-8ccc-9588e7b70d18
 :END:
 :LOGBOOK:
+- State "DONE"       from "PROG"       [2024-08-27 Tue 18:28]
 - State "PROG"       from "NEXT"       [2024-08-27 Tue 17:57]
 - State "NEXT"       from "TODO"       [2024-08-25 Sun 17:23]
 - State "TODO"       from              [2024-08-20 Tue 18:18]
@@ -329,7 +331,7 @@ Works with Emacs.
 
 Similar to [[https://www.doxygen.nl/][Doxygen]]
 
-* TODO [0/5] Vaudeo
+* TODO [0/6] Vaudeo
 :PROPERTIES:
 :ID:       77cbab3b-6e85-46d7-9427-f89722dc2db1
 :END:
@@ -338,6 +340,17 @@ Similar to [[https://www.doxygen.nl/][Doxygen]]
 :END:
 
 Complete "firmware" for rev A of Vaudeo board.
+
+** NEXT Get Reacquainted with Verilog
+:PROPERTIES:
+:ID:       1ae210ce-686e-43a9-abc2-d6826771cc01
+:END:
+:LOGBOOK:
+- State "NEXT"       from "TODO"       [2024-08-27 Tue 18:30]
+- State "TODO"       from              [2024-08-27 Tue 18:30]
+:END:
+
+Use [[https://hdlbits.01xz.net/wiki/Main_Page][hdlbits]] for this
 
 ** TODO Basic VGA signals generated
 :PROPERTIES:

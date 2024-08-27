@@ -141,22 +141,24 @@ What needs to be done for each release.
 How to use this stuff to do planning for future projects, etc. How does the workflow
 work?
 
-** NEXT OriComp Repo
+** PROG OriComp Repo
 :PROPERTIES:
 :ID:       d2c3d49b-a647-49fc-8ccc-9588e7b70d18
 :END:
 :LOGBOOK:
+- State "PROG"       from "NEXT"       [2024-08-27 Tue 17:57]
 - State "NEXT"       from "TODO"       [2024-08-25 Sun 17:23]
 - State "TODO"       from              [2024-08-20 Tue 18:18]
 :END:
 
 Add README to the main *OriComp* repo. This should go over each submodule.
 
-** TODO Documentation Generation
+** NEXT Documentation Generation
 :PROPERTIES:
 :ID:       927762c7-3993-4f13-ae09-d4562043dfd8
 :END:
 :LOGBOOK:
+- State "NEXT"       from "TODO"       [2024-08-27 Tue 17:57]
 - State "TODO"       from              [2024-08-20 Tue 18:18]
 :END:
 

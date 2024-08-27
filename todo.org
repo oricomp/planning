@@ -1,7 +1,7 @@
 #+title: OriComp Planning
 #+auto_tangle: nil
 
-* PROG [1/5] Initial Documentation
+* PROG [2/5] Initial Documentation
 :PROPERTIES:
 :ID:       aded0478-46fd-4189-ab77-c1d541b22839
 :END:
@@ -126,11 +126,14 @@ Update the ~org-todo-keyword-faces~ variable to reflect new keywords.
 
 What needs to be done for each release.
 
-** NEXT Planning Procedure
+** DONE Planning Procedure
 :PROPERTIES:
 :ID:       cdfbdfd6-5701-4ab8-aa77-eab45152d0fe
 :END:
 :LOGBOOK:
+- State "DONE"       from "PROG"       [2024-08-27 Tue 17:54] \\
+  Added README.org to this repo
+- State "PROG"       from "NEXT"       [2024-08-26 Mon 21:23]
 - State "NEXT"       from "TODO"       [2024-08-20 Tue 21:03]
 - State "TODO"       from              [2024-08-20 Tue 18:18]
 :END:
@@ -221,6 +224,14 @@ b = a.f().g().h()
 a == b // true
 #+end_src
 This is really only needed for member functions (not all functions).
+
+Lambda functions via nameless functions. Normal functions are declared via ~func~ keyword. Lambda
+(or nameless) just have no name.
+#+begin_src
+func void main() {} // normal declaration of function that takes no args and returns nothing
+
+func void () {} // nameless declaration of function that takes no args and returns nothing
+#+end_src
 
 Types:
  - ~i8~, ~i16~, ..., ~i128~ -- signed ints

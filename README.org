@@ -9,3 +9,71 @@ This solution was chosen over others (like Jira or GitHub Projects) because Org 
 is a tool that I am already familiar with. Also, since this is a one person project,
 tracking issues, bugs, features, etc. across multiple users is not needed, and so
 the other solutions are not necessary.
+
+* Procedure
+
+Overall goals are split into "tasks". Tasks are given titles, descriptions, and a unique
+ID. The ID is the only part guaranteed to be unique, and is to be used when referring to
+tasks.
+
+Tasks can also have children, which are also tasks. Unlike other software (like Jira,
+which has the concepts of Epic, Story and Task), there is no fundamental difference
+between a parent and child task with the exception of the work they outline. However,
+child tasks should break down their parent task into more reasonable steps, and if any
+child task is not done, the parent should not be done.
+
+Planning/Tracking of tasks follow the flow diagram shown below.
+
+#+begin_example
+                             +------+
+                             | INTR | ---+
+                             +------+    |
+                                         |
+ +------+      +------+      +------+    |     +------+
+ | TODO | ---> | NEXT | ---> | PROG | ---+---> | DONE |
+ +------+      +------+      +------+    |     +------+
+                               |  |      |
+                             +------+    |     +------+
+                             | HOLD |    +---> | CANC |
+                             +------+          +------+
+#+end_example
+
+** TODO
+
+This state is for tasks that are planned for the future, but there are no progress
+happening (with the exception of adding more details to the *TODO*).
+
+Details for tasks and necessary child tasks should be added before moving to *NEXT*.
+
+** NEXT
+
+This state is for tasks that are planned to be done after all tasks in progress are
+completed. They should be completely filled out with details and child tasks.
+
+** PROG
+
+This state is for tasks that are currently in progress. The number of tasks in this
+state should be minimized (ideally 1).
+
+** HOLD
+
+This state is for tasks that were started, but had to be put on hold. They can be
+put on hold because there is a blocker, something else is more important, or
+burnout on the task.
+
+Note: *INTR* tasks should not cause any others to be put on *HOLD*.
+
+** DONE
+
+Tasks marked as done are considered complete. No more work needs to be done for them.
+
+** CANC
+
+Tasks marked as canceled are considered complete. The required work is not done because
+the feature/bug/etc was abandoned.
+
+** INTR
+
+This state is for tasks that take interrupt priority over all others. These tasks
+should be relatively short (completable in a few hours of developer time). These are
+similar to bugs, but can include important features as well.

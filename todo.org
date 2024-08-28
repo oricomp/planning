@@ -1,7 +1,7 @@
 #+title: OriComp Planning
 #+auto_tangle: nil
 
-* PROG [3/5] Initial Documentation
+* PROG [4/5] Initial Documentation
 :PROPERTIES:
 :ID:       aded0478-46fd-4189-ab77-c1d541b22839
 :END:
@@ -115,11 +115,13 @@ Update the ~org-todo-keyword-faces~ variable to reflect new keywords.
 
 [[https://orgmode.org/manual/Special-Properties.html][Special Properties]]
 
-** PROG Release Procedure
+** CANC Release Procedure
 :PROPERTIES:
 :ID:       9601b3bc-5c4e-4235-8a63-6ec89b12e7c3
 :END:
 :LOGBOOK:
+- State "CANC"       from "PROG"       [2024-08-27 Tue 23:01] \\
+  This should ideally be done once a release has actually been made
 - State "PROG"       from "NEXT"       [2024-08-27 Tue 18:29]
 - State "NEXT"       from "TODO"       [2024-08-25 Sun 17:23]
 - State "TODO"       from              [2024-08-20 Tue 18:16]
@@ -155,11 +157,12 @@ work?
 
 Add README to the main *OriComp* repo. This should go over each submodule.
 
-** NEXT Documentation Generation
+** PROG Documentation Generation
 :PROPERTIES:
 :ID:       927762c7-3993-4f13-ae09-d4562043dfd8
 :END:
 :LOGBOOK:
+- State "PROG"       from "NEXT"       [2024-08-27 Tue 23:02]
 - State "NEXT"       from "TODO"       [2024-08-27 Tue 17:57]
 - State "TODO"       from              [2024-08-20 Tue 18:18]
 :END:
@@ -245,6 +248,7 @@ Types:
    after decimal
  - No characters (they are just ~u8~)
  - Fat pointers with size and location (cannot cast from smaller size to bigger size)
+ - ~const~ can be initialized after declaration (but only once) (e.g. ~const u8 x; x = 5;~)
 
 ** TODO Look Into Hare
 :PROPERTIES:

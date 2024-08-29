@@ -198,7 +198,7 @@ Also capable of exporting html/pdf with all links to other docs handled correctl
 :END:
 
 A completely custom programming language for use in *OriComp*. Should be similar/inspired
-by C, C++, Rust, Zig, C3, etc.
+by C, C++, Rust, Zig, C3, Go, etc.
 
 A low level system programming language.
 
@@ -239,6 +239,11 @@ func void main() {} // normal declaration of function that takes no args and ret
 
 func void () {} // nameless declaration of function that takes no args and returns nothing
 #+end_src
+
+Imports are file/folder based (can add include paths). Example, ~import std::io~, then used as
+~io::print()~. Can also do ~import std::io::print~, at which point ~print()~ would work, but
+nothing else from ~std::io~ is imported. Or can import everything, ~import std::io::{*}~.
+Importing multiple things from module is ~import std::io::{print, println}~.
 
 Types:
  - ~i8~, ~i16~, ..., ~i128~ -- signed ints

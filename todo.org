@@ -162,32 +162,35 @@ Similar to [[https://www.doxygen.nl/][Doxygen]]
 
 Complete "firmware" for rev A of Vaudeo board.
 
-** NEXT Get Reacquainted with Verilog
+** PROG Get Reacquainted with Verilog
 :PROPERTIES:
 :ID:       1ae210ce-686e-43a9-abc2-d6826771cc01
 :END:
 :LOGBOOK:
+- State "PROG"       from "NEXT"       [2024-08-28 Wed 22:46]
 - State "NEXT"       from "TODO"       [2024-08-27 Tue 18:30]
 - State "TODO"       from              [2024-08-27 Tue 18:30]
 :END:
 
 Use [[https://hdlbits.01xz.net/wiki/Main_Page][hdlbits]] for this
 
-** TODO Basic VGA signals generated
+** NEXT Basic VGA signals generated
 :PROPERTIES:
 :ID:       4d158a2e-719e-4f29-a9f0-795d9de4fe7f
 :END:
 :LOGBOOK:
+- State "NEXT"       from "TODO"       [2024-08-28 Wed 22:45]
 - State "TODO"       from              [2024-08-20 Tue 18:20]
 :END:
 
 Vertical sync and Horizontal sync
 
-** TODO Working Simulation/Interface For Testing
+** NEXT Working Simulation/Interface For Testing
 :PROPERTIES:
 :ID:       36248ea9-aff9-41ab-8f0b-40ea38b093cc
 :END:
 :LOGBOOK:
+- State "NEXT"       from "TODO"       [2024-08-28 Wed 22:45]
 - State "TODO"       from              [2024-08-20 Tue 18:20]
 :END:
 

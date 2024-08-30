@@ -30,6 +30,9 @@ Ability to add "optimizations"/"inferences" similar to how
 to type ~String~. This should be added to the language itself (compile time) so that
 users can add such things however they want.
 
+Able to change parts of the language using the language itself. Not really sure
+how to do this, but like the idea. Maybe just the markers will do it?
+
 Special variable ~_~ that can be redefined/implicitly declared and just symbolizes
 to compiler that value is ignored. (padding in structs (if necessary)).
 
@@ -56,6 +59,9 @@ Imports are file/folder based (can add include paths). Example, ~import std::io~
 ~io::print()~. Can also do ~import std::io::print~, at which point ~print()~ would work, but
 nothing else from ~std::io~ is imported. Or can import everything, ~import std::io::{*}~.
 Importing multiple things from module is ~import std::io::{print, println}~.
+
+Way to specify requirements/guarantees of input/output for functions (will be checked at
+compile time). Not as advanced as [[https://dafny.org/][dafny]] but capable of doing some things.
 
 Types:
  - ~i8~, ~i16~, ..., ~i128~ -- signed ints
@@ -172,7 +178,7 @@ Complete "firmware" for rev A of Vaudeo board.
 - State "TODO"       from              [2024-08-27 Tue 18:30]
 :END:
 
-Use [[https://hdlbits.01xz.net/wiki/Main_Page][hdlbits]] for this
+Use [[https://hdlbits.01xz.net/wiki/Main_Page][hdlbits]] and [[https://chipdev.io/question-list][chipdev]] for this
 
 ** NEXT Basic VGA signals generated
 :PROPERTIES:

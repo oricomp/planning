@@ -63,6 +63,8 @@ Importing multiple things from module is ~import std::io::{print, println}~.
 Way to specify requirements/guarantees of input/output for functions (will be checked at
 compile time). Not as advanced as [[https://dafny.org/][dafny]] but capable of doing some things.
 
+Allow ~_~ in numeric literals of all forms (decimal, binary, hex, octal).
+
 Types:
  - ~i8~, ~i16~, ..., ~i128~ -- signed ints
  - ~u8~, ~u16~, ..., ~u128~ -- unsigned ints

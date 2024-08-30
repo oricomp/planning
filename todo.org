@@ -1,7 +1,7 @@
 #+title: OriComp Planning
 #+auto_tangle: nil
 
-* TODO [0/8] Programming Language
+* TODO [0/9] Programming Language
 :PROPERTIES:
 :ID:       446aeb7e-c110-47b4-afb7-efe1c013b8a5
 :END:
@@ -157,6 +157,16 @@ Works with Emacs.
 :END:
 
 Similar to [[https://www.doxygen.nl/][Doxygen]]
+
+** TODO Formatter for Language
+:PROPERTIES:
+:ID:       d3da47c3-5d9d-45ed-96f4-abd5b0710610
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-08-30 Fri 10:33]
+:END:
+
+Similar to clang-format (also using yaml for configuration).
 
 * TODO [0/6] Vaudeo
 :PROPERTIES:

@@ -266,3 +266,19 @@ Also build into simulation
 :END:
 
 Should also throw errors when there is not proper timing, etc.
+
+* Future (not thought through completely, just ideas)
+** LISP Interpreter
+
+Not sure what form of lisp (preferably something simple)
+
+** Scripting Language
+
+Similar to Python, but without all the stuff I dislike about Python.
+
+** Multiple different CPUs
+
+Start with already designed ones, then transition to custom ones.
+Maybe skip 8-bit and go straight to 16-bit.
+
+Need a good way to easily port everything to a new CPU.

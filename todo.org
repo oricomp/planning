@@ -85,6 +85,10 @@ Types:
 
 [[https://harelang.org/][Hare Programming Language]]
 
+** Look into Crystal
+
+[[https://crystal-lang.org/][Crystal]] Specifically the ~!~ for handling mutable vs immutable function calls
+
 ** TODO Learn Rust
 :PROPERTIES:
 :ID:       7b2200fe-0114-49ca-b748-f1e64a823b56

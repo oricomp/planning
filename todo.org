@@ -1,7 +1,7 @@
 #+title: OriComp Planning
 #+auto_tangle: nil
 
-* TODO [0/9] Programming Language
+* TODO [0/10] Programming Language
 :PROPERTIES:
 :ID:       446aeb7e-c110-47b4-afb7-efe1c013b8a5
 :END:
@@ -75,7 +75,14 @@ Types:
  - Fat pointers with size and location (cannot cast from smaller size to bigger size)
  - ~const~ can be initialized after declaration (but only once) (e.g. ~const u8 x; x = 5;~)
 
-** TODO Look Into Hare
+** TODO [0/4] Look into Other Programming Languages
+:PROPERTIES:
+:ID:       31e7641b-78e5-44ea-bd56-d6b9643298da
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-09-01 Sun 21:41]
+:END:
+*** TODO Look Into Hare
 :PROPERTIES:
 :ID:       ca6aa35a-90d8-4c89-9069-f75ee4af42a8
 :END:
@@ -85,11 +92,17 @@ Types:
 
 [[https://harelang.org/][Hare Programming Language]]
 
-** Look into Crystal
+*** TODO Look into Crystal
+:PROPERTIES:
+:ID:       12aa9ecf-50b9-491b-bf21-bf8571c66a40
+:END:
+:LOGBOOK:
+- State "TODO"       from              [2024-09-01 Sun 21:42]
+:END:
 
 [[https://crystal-lang.org/][Crystal]] Specifically the ~!~ for handling mutable vs immutable function calls
 
-** TODO Learn Rust
+*** TODO Learn Rust
 :PROPERTIES:
 :ID:       7b2200fe-0114-49ca-b748-f1e64a823b56
 :END:
@@ -101,7 +114,7 @@ Types:
 [[https://github.com/rust-lang/rustlings/][Rustlings Course]]
 [[https://doc.rust-lang.org/rust-by-example/][Examples]]
 
-** TODO Learn Zig
+*** TODO Learn Zig
 :PROPERTIES:
 :ID:       408f98fd-4e64-4fc5-8d42-8990738e9a5b
 :END:

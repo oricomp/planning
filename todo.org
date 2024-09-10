@@ -10,7 +10,7 @@
 :END:
 
 A completely custom programming language for use in *OriComp*. Should be similar/inspired
-by C, C++, Rust, Zig, C3, Go, etc.
+by C, C++, Rust, Zig, C3, Go, Swift, etc.
 
 A low level system programming language.
 

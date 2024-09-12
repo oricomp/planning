@@ -74,6 +74,7 @@ Types:
    after decimal
  - No characters (they are just ~u8~)
  - Fat pointers with size and location (cannot cast from smaller size to bigger size)
+ - Pointers are not declared using ~u8*~, but instead as ~ptr<u8>~.
  - ~const~ can be initialized after declaration (but only once) (e.g. ~const u8 x; x = 5;~)
 
 ** TODO [0/4] Look into Other Programming Languages

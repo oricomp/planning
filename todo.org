@@ -23,7 +23,8 @@ Python like markers (only for functions?).
 
 Named TIO (Two in One) (compile time and run time) (compile time dynamically typed?)
 
-Compile time expansion of lists/vectors as arguments to function?
+Compile time expansion of lists/vectors as arguments to function? Support ~VectorX~ type,
+where ~X~ is an integer >= 2?
 
 Ability to add "optimizations"/"inferences" similar to how
 ~String str = "Hello World";~ would have the string literal (a ~u8~ array) upgraded

@@ -34,6 +34,9 @@ Ability to add "optimizations"/"inferences" similar to how
 to type ~String~. This should be added to the language itself (compile time) so that
 users can add such things however they want.
 
+Spread operator (~..~) for arrays (or ranges). Something like ~for x in 0..arr.length~
+to iterate through the indices of ~arr~.
+
 Able to change parts of the language using the language itself. Not really sure
 how to do this, but like the idea. Maybe just the markers will do it?
 

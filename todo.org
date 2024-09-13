@@ -14,6 +14,9 @@ by C, C++, Rust, Zig, C3, Go, Swift, etc.
 
 A low level system programming language.
 
+Compatible with C (and C++?). Without the user having to create their own declaration of anything.
+Just import a C/C++ header file and use it.
+
 Arbitrary compile time code execution.
 
 Only tool necessary for building project is compiler (can use built in library to build
